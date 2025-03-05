@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+text-align: left;
+text-decoration: underline;
+color: rgb(136, 212, 237);
+}
+
+h5 {
+    font-style: italic;
+    color: lightsalmon;
+}
+
+.image {
+    border: black 4.5px solid;
+}
+
+.para {
+    text-align: center;
+    color: rgb(163, 136, 237);
+    font-weight: 100;
+}
+
+.un-list {
+    text-align: left;
+    list-style: square;
+}
+
+.ol-list {
+    text-align: left;
+    list-style: decimal;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
