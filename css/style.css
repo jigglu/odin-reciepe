@@ -1,15 +1,58 @@
+/* Universal Styles */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Heading */
+.heading {
+    text-align: center;
+    color: midnightblue;
+    border: 3px solid gold;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/* UL Styling */
+.unordered-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Aligns list items horizontally */
+    justify-content: center;
+    gap: 20px;
+}
+
+/* List Items */
+.list-item {
+    border: 3px solid gold;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+}
+
+/* Link Styling */
+.list-item a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+.list-item a:hover {
+    color: darkorange;
+}
+
+/* Additional Styles */
 h1 {
     text-align: center;
 }
 
 h3 {
-text-align: left;
-text-decoration: underline;
-color: rgb(136, 212, 237);
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(136, 212, 237);
 }
 
 h5 {
